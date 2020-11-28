@@ -1,20 +1,9 @@
-var side_bar = document.getElementById("mySidebar");
-var over_lay = document.getElementById("myOverlay");
-
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-    overlayBg.style.display = "none";
-  } else {
-    mySidebar.style.display = 'block';
-    overlayBg.style.display = "block";
-  }
+function openNav() {
+  document.getElementById("side_bar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
 }
 
-function w3_close() {
-  mySidebar.style.display = "none";
-  overlayBg.style.display = "none";
+function closeNav() {
+  document.getElementById("side_bar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
 }
-
-//nav bar template source
-//https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_analytics&stacked=h
