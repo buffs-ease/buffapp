@@ -99,8 +99,24 @@ p, h1, h2, h3, h4, h5, h6{
     }
 }
 
-section{
+section-gold{
     background-color: #ffcc33;
+    border:black;
+    border-radius: 25px;
+    overflow: hidden; 
+    margin-bottom: 20px; 
+    padding: 5px;
+}
+section-silver{
+    background-color: silver;
+    border:black;
+    border-radius: 25px;
+    overflow: hidden; 
+    margin-bottom: 20px; 
+    padding: 5px;
+}
+section-black{
+    background-color: black;
     border:black;
     border-radius: 25px;
     overflow: hidden; 
@@ -164,7 +180,7 @@ section{
   }
   
 #user td, #user th, #courses td, #courses th, #favloc td, #favloc th {
-    border: 2px solid silver;
+    border: 2px solid gold;
     background-color: black;
     color: white;
     padding: 8px;
