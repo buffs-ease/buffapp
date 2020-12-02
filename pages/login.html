@@ -67,10 +67,42 @@
             </section>
             <section class="silver"> 
                 <h2 class="title center"> New to Buffs @ Ease?</h2>
-                <h4 class="subtitle center link"> Sign up here </h4>
+                <h4 class="subtitle center link"><a href="https://buffs-ease.github.io/buffapp/pages/signup.html" class="link" style="color: white;" target="popup" onclick="window.open('https://buffs-ease.github.io/buffapp/pages/signup.html', 'popup', 'width=600, height=600'); return false;"> Sign up here </a></h4>
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
             </section>
         </div>
 
+
+        <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <form class="modal-content" action="/action_page.php">
+              <div class="container">
+                <h1>Sign Up</h1>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+          
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+          
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                
+                <label>
+                  <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                </label>
+          
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+          
+                <div class="clearfix">
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                  <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          
         <!-- Footer -->
         <div class="w3-container footer">
             <p>Created By Name Pending <a href="https://github.com/CSCI-3308-CU-Boulder/Name-Pending" target="_blank" class="link">Github</a></p>
