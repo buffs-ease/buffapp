@@ -1,9 +1,8 @@
-function openNav() {
-  document.getElementById("side_bar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-  document.getElementById("side_bar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
+function respNav() {
+    var x = document.getElementById("navbar");
+    if (x.className === "nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav";
+    }
+  }
