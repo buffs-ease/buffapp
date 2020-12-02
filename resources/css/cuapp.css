@@ -173,7 +173,7 @@ section{
   }
   
 #user td, #user th, #courses td, #courses th, #favloc td, #favloc th {
-    border: 2px solid gold;
+    border: 2px solid silver;
     background-color: black;
     color: white;
     padding: 8px;
@@ -202,5 +202,5 @@ section{
     text-align: left;
     background-color: silver;
     color: black;
-    border: 2px solid gold; 
+    border: 2px solid silver; 
   }
