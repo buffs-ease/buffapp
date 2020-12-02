@@ -109,19 +109,19 @@ section{
 .title{
     font-size: 2em;
     color: black;
-    text-shadow: 1px 1px white; 
+    text-shadow: 1px 1px silver; 
 }
 
 .subtitle{
     font-size: 1em;
     color: black;
-    text-shadow: 1px 1px white; 
+    text-shadow: 1px 1px silver; 
 }
 
 .section-text{
     font-size: 1em;
-    color: white; 
-    text-shadow: 0.5px 0.5px black;
+    color: black; 
+    text-shadow: 0.5px 0.5px silver;
 }
 
 .infograph{
