@@ -135,6 +135,17 @@ section{
     border-radius: 25px;
 }
 
+.circle-icon{
+    background: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+}
+
 .footer{
     position: relative;
     left: 0;
