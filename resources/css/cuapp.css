@@ -158,12 +158,12 @@ section{
 }
 
 
-#user {
+#user, #courses, #favloc {
     border-collapse: collapse;
     width: 100%;
   }
   
-#user td, #user th {
+#user td, #user th, #courses td, #courses th, #favloc td, #favloc th {
     border: 2px solid silver;
     background-color: black;
     color: white;
@@ -174,12 +174,20 @@ section{
     color: black;
     background-color: gray;
 }
+#courses tr:nth-child(even){
+    color: black;
+    background-color: gray;
+}
+#favloc tr:nth-child(even){
+    color: black;
+    background-color: gray;
+}
   
-#user tr:hover {
+#user tr:hover, #courses tr:hover, #favloc tr:hover {
     background-color: white;
 }
   
-#user th {
+#user th, #courses th, #favloc th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
