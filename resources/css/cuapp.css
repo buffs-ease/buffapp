@@ -157,3 +157,32 @@ section{
     text-align: center;
 }
 
+
+#user {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+#user td, #user th {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 8px;
+  }
+  
+#user tr:nth-child(even){
+    color: black;
+    background-color: gray;
+}
+  
+#user tr:hover {
+    background-color: white;
+}
+  
+#user th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
