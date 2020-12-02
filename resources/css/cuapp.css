@@ -137,11 +137,11 @@ section{
 
 .circle-icon{
     background: black;
-    width: 100px;
-    height: 100px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     text-align: center;
-    line-height: 100px;
+    line-height: 10px;
     vertical-align: middle;
     padding: 2px;
 }
