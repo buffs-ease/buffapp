@@ -164,7 +164,7 @@ section{
   }
   
 #user td, #user th {
-    border: 1px solid black;
+    border: 2px solid silver;
     background-color: black;
     color: white;
     padding: 8px;
@@ -183,6 +183,7 @@ section{
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #4CAF50;
-    color: white;
+    background-color: silver;
+    color: black;
+    border: 2px solid gold; 
   }
