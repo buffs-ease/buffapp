@@ -169,6 +169,7 @@ section{
 #user, #courses, #favloc {
     border-collapse: collapse;
     width: 100%;
+    padding: 10px; 
   }
   
 #user td, #user th, #courses td, #courses th, #favloc td, #favloc th {
