@@ -101,7 +101,6 @@ p, h1, h2, h3, h4, h5, h6{
 
 section-gold{
     background-color: #ffcc33;
-    border:black;
     border-radius: 25px;
     overflow: hidden; 
     margin-bottom: 20px; 
@@ -109,7 +108,6 @@ section-gold{
 }
 section-silver{
     background-color: silver;
-    border:black;
     border-radius: 25px;
     overflow: hidden; 
     margin-bottom: 20px; 
@@ -117,7 +115,6 @@ section-silver{
 }
 section-black{
     background-color: black;
-    border:black;
     border-radius: 25px;
     overflow: hidden; 
     margin-bottom: 20px; 
