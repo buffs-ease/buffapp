@@ -99,27 +99,22 @@ p, h1, h2, h3, h4, h5, h6{
     }
 }
 
-section-gold{
+section{
+    border-radius: 25px;
+    overflow: hidden; 
+    margin-bottom: 20px; 
+    padding: 5px;
+}
+.gold{
     background-color: #ffcc33;
-    border-radius: 25px;
-    overflow: hidden; 
-    margin-bottom: 20px; 
-    padding: 5px;
 }
-section-silver{
+.silver{
     background-color: silver;
-    border-radius: 25px;
-    overflow: hidden; 
-    margin-bottom: 20px; 
-    padding: 5px;
 }
-section-black{
+.black{
     background-color: black;
-    border-radius: 25px;
-    overflow: hidden; 
-    margin-bottom: 20px; 
-    padding: 5px;
 }
+
 
 .title{
     font-size: 2em;
